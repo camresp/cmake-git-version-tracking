@@ -16,7 +16,7 @@ const char* git_CommitSHA1() {
     return GIT_HEAD_SHA1;
 }
 const char* git_CommitDate() {
-    return GIT_COMMIT_DATE_ISO8601;
+    return GIT_COMMIT_DATE;
 }
 const char* git_CommitSubject() {
     return GIT_COMMIT_SUBJECT;
